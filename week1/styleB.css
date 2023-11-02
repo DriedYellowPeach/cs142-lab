@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  border: 5px solid purple;
+  white-space: nowrap;
+  /* position: relative; */
+}
+
+.box {
+  /* position: fixed; */
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 150px;
+  max-height: 150px;
+  font: Tahoma;
+  font-size: 40px;
+  border-left: 10px dotted #d0d0ff;
+  margin: 10px;
+  display: inline-block;
+  background-color: #dfe1e7;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box.final {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.box:hover {
+  cursor: grabbing;
+  background-color: yellow;
+  color: goldenrod;
+}

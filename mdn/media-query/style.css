@@ -1,0 +1,12 @@
+
+body {
+  width: 70%;
+  height: 70%;
+  background-color: red;
+}
+
+@media (min-height: 30em) {
+  body {
+    background-color: blue;
+  }
+}
